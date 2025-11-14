@@ -1,0 +1,52 @@
+.main_div {
+  width: 100%;
+  background-color: #000000;
+  color: #88750e;
+  padding: 20px 0px 20px 0px;
+}
+.info_span {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 100;
+}
+.copyright_maindiv {
+  margin-top: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.facebook_icon {
+  background-color: #3b5998;
+  padding: 5px 5px 1px 5px;
+  border-radius: 100%;
+}
+.instagram_icon {
+  background-color: #c4217b;
+  padding: 5px 5px 1px 5px;
+  border-radius: 100%;
+}
+.facebook_icon,
+.instagram_icon,
+.youtube_icon,
+.linkedin_icon {
+  transition: transform 0.3s ease; /* Smooth animation */
+}
+
+.facebook_icon:hover,
+.instagram_icon:hover,
+.youtube_icon:hover,
+.linkedin_icon:hover {
+  transform: scale(1.2); /* Zoom in by 20% */
+  cursor: pointer; /* Change cursor to pointer */
+}
+.icons_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}

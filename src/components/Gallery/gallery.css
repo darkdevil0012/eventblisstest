@@ -1,0 +1,31 @@
+.gallery_heading {
+  font-size: 50px;
+  font-weight: lighter;
+  border: 1;
+}
+.gallery_heading span {
+  /* color: #053268; */
+  color: #88750e;
+}
+.gallery_pics {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.gallery_main {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  background-color: #ecf3f7;
+  border-radius: 10px;
+}
+.gallery_img {
+  transition: filter 0.3s ease;
+}
+
+.gallery_img:hover {
+  filter: brightness(60%);
+}
