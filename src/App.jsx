@@ -16,19 +16,19 @@
 // export default App;
 
 // App.js (Example using React Router v6)
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import ThankYouPage from "./pages/Thankyou";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         {/* The route the form submits to/redirects to */}
         <Route path="/thank-you" element={<ThankYouPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App;
