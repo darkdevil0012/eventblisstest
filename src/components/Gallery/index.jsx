@@ -20,94 +20,13 @@ function Gallery() {
         </h1>
 
         <div className="gallery_pics">
-          {/* <Grid container spacing={2}>
-            <Grid size={{ xs: 6, md: 8, lg: 4 }}>
-              <Card sx={{ width: 100, borderRadius: 3 }}>
-                <CardActionArea>
-                  <CardMedia
-                    component="img"
-                    height="200"
-                    image={pic1}
-                    alt=""
-                    className="gallery_img"
-                  />
-                </CardActionArea>
-              </Card>
-            </Grid>
-            <Grid size={{ xs: 6, md: 8, lg: 4 }}>
-              <Card sx={{ width: 100, borderRadius: 3 }}>
-                <CardActionArea>
-                  <CardMedia
-                    component="img"
-                    height="200"
-                    image={pic2}
-                    alt=""
-                    className="gallery_img"
-                  />
-                </CardActionArea>
-              </Card>
-            </Grid>
-            <Grid size={{ xs: 6, md: 8, lg: 4 }}>
-              <Card sx={{ width: 100, borderRadius: 3 }}>
-                <CardActionArea>
-                  <CardMedia
-                    component="img"
-                    height="200"
-                    image={pic3}
-                    alt=""
-                    className="gallery_img"
-                  />
-                </CardActionArea>
-              </Card>
-            </Grid>
-
-            <Grid size={{ xs: 6, md: 8, lg: 4 }}>
-              <Card sx={{ width: 100, borderRadius: 3 }}>
-                <CardActionArea>
-                  <CardMedia
-                    component="img"
-                    height="200"
-                    image={pic4}
-                    alt=""
-                    className="gallery_img"
-                  />
-                </CardActionArea>
-              </Card>
-            </Grid>
-            <Grid size={{ xs: 6, md: 8, lg: 4 }}>
-              <Card sx={{ width: 125, borderRadius: 3 }}>
-                <CardActionArea>
-                  <CardMedia
-                    component="img"
-                    height="200"
-                    image={pic5}
-                    alt=""
-                    className="gallery_img"
-                  />
-                </CardActionArea>
-              </Card>
-            </Grid>
-            <Grid size={{ xs: 6, md: 8, lg: 4 }}>
-              <Card sx={{ width: 125, borderRadius: 3 }}>
-                <CardActionArea>
-                  <CardMedia
-                    component="img"
-                    height="200"
-                    image={pic6}
-                    alt=""
-                    className="gallery_img"
-                  />
-                </CardActionArea>
-              </Card>
-            </Grid>
-          </Grid> */}
           <Grid container spacing={2} sx={{ justifyContent: "center" }}>
-            <Grid item xs={6} lg={3} xl={2}>
+            <Grid item xs={6} md={6} lg={3} xl={2}>
               <Card
                 sx={{
                   // width: 155,
                   borderRadius: 3,
-                  width: { xs: 155, sm: 300, md: 400, lg: 230 },
+                  width: { xs: 155, sm: 250, md: 400, lg: 230 },
                 }}
               >
                 <CardActionArea>
@@ -121,12 +40,12 @@ function Gallery() {
                 </CardActionArea>
               </Card>
             </Grid>
-            <Grid item xs={6} lg={3} xl={2}>
+            <Grid item xs={6} md={6} lg={3} xl={2}>
               <Card
                 sx={{
                   // width: 155,
                   borderRadius: 3,
-                  width: { xs: 155, sm: 300, md: 400, lg: 230 },
+                  width: { xs: 155, sm: 250, md: 400, lg: 230 },
                 }}
               >
                 <CardActionArea>
@@ -140,12 +59,12 @@ function Gallery() {
                 </CardActionArea>
               </Card>
             </Grid>
-            <Grid item xs={6} lg={3} xl={2}>
+            <Grid item xs={6} md={6} lg={3} xl={2}>
               <Card
                 sx={{
                   // width: 155,
                   borderRadius: 3,
-                  width: { xs: 155, sm: 300, md: 400, lg: 230 },
+                  width: { xs: 155, sm: 250, md: 400, lg: 230 },
                 }}
               >
                 <CardActionArea>
@@ -159,12 +78,12 @@ function Gallery() {
                 </CardActionArea>
               </Card>
             </Grid>
-            <Grid item xs={6} lg={3} xl={2}>
+            <Grid item xs={6} md={6} lg={3} xl={2}>
               <Card
                 sx={{
                   // width: 155,
                   borderRadius: 3,
-                  width: { xs: 155, sm: 300, md: 400, lg: 230 },
+                  width: { xs: 155, sm: 250, md: 400, lg: 230 },
                 }}
               >
                 <CardActionArea>
@@ -178,12 +97,12 @@ function Gallery() {
                 </CardActionArea>
               </Card>
             </Grid>
-            <Grid item xs={6} lg={3} xl={2}>
+            <Grid item xs={6} md={6} lg={3} xl={2}>
               <Card
                 sx={{
                   // width: 155,
                   borderRadius: 3,
-                  width: { xs: 155, sm: 300, md: 400, lg: 230 },
+                  width: { xs: 155, sm: 250, md: 400, lg: 230 },
                 }}
               >
                 <CardActionArea>
@@ -197,12 +116,12 @@ function Gallery() {
                 </CardActionArea>
               </Card>
             </Grid>
-            <Grid item xs={6} lg={3} xl={2}>
+            <Grid item xs={6} md={6} lg={3} xl={2}>
               <Card
                 sx={{
                   // width: 155,
                   borderRadius: 3,
-                  width: { xs: 155, sm: 300, md: 400, lg: 230 },
+                  width: { xs: 155, sm: 250, md: 400, lg: 230 },
                 }}
               >
                 <CardActionArea>

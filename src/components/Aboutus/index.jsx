@@ -16,16 +16,16 @@ function Aboutus() {
       <div>
         <span className="desc_span">
           At Event Bliss, we believe every occasion deserves to be celebrated
-          with perfection, creativity, and a touch of elegance. We are a
-          full-service event management company dedicated to planning and
-          executing memorable experiences that leave a lasting impression. From
-          dream weddings and corporate gatherings to birthday celebrations,
-          school picnics, and college functions, Event Bliss brings expertise,
+          with perfection, creativity, and a touch of elegance. We are a full
+          service event management company dedicated to planning and executing
+          memorable experiences that leave a lasting impression. From dream
+          weddings and corporate gatherings to birthday celebrations, school
+          picnics, and college functions, Event Bliss brings expertise,
           innovation, and flawless coordination to every event. Our professional
-          team handles every detail — from concept and décor to catering and
-          entertainment — ensuring a seamless and stress-free experience for our
+          team handles every detail from concept and decor to catering and
+          entertainment ensuring a seamless and stress-free experience for our
           clients. With a commitment to excellence and personalized service,
-          Event Bliss transforms your vision into reality - making your special
+          Event Bliss transforms your vision into reality making your special
           moments truly unforgettable.
         </span>
       </div>
