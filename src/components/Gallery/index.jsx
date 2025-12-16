@@ -26,7 +26,7 @@ function Gallery() {
                 sx={{
                   // width: 155,
                   borderRadius: 3,
-                  width: { xs: 155, sm: 250, md: 400, lg: 230 },
+                  width: { xs: 130, sm: 250, md: 400, lg: 230 },
                 }}
               >
                 <CardActionArea>
@@ -45,7 +45,7 @@ function Gallery() {
                 sx={{
                   // width: 155,
                   borderRadius: 3,
-                  width: { xs: 155, sm: 250, md: 400, lg: 230 },
+                  width: { xs: 130, sm: 250, md: 400, lg: 230 },
                 }}
               >
                 <CardActionArea>
@@ -64,7 +64,7 @@ function Gallery() {
                 sx={{
                   // width: 155,
                   borderRadius: 3,
-                  width: { xs: 155, sm: 250, md: 400, lg: 230 },
+                  width: { xs: 130, sm: 250, md: 400, lg: 230 },
                 }}
               >
                 <CardActionArea>
@@ -83,7 +83,7 @@ function Gallery() {
                 sx={{
                   // width: 155,
                   borderRadius: 3,
-                  width: { xs: 155, sm: 250, md: 400, lg: 230 },
+                  width: { xs: 130, sm: 250, md: 400, lg: 230 },
                 }}
               >
                 <CardActionArea>
@@ -102,7 +102,7 @@ function Gallery() {
                 sx={{
                   // width: 155,
                   borderRadius: 3,
-                  width: { xs: 155, sm: 250, md: 400, lg: 230 },
+                  width: { xs: 130, sm: 250, md: 400, lg: 230 },
                 }}
               >
                 <CardActionArea>
@@ -121,7 +121,7 @@ function Gallery() {
                 sx={{
                   // width: 155,
                   borderRadius: 3,
-                  width: { xs: 155, sm: 250, md: 400, lg: 230 },
+                  width: { xs: 130, sm: 250, md: 400, lg: 230 },
                 }}
               >
                 <CardActionArea>
